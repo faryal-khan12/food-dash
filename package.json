@@ -1,0 +1,29 @@
+{
+  "name": "food-dash",
+  "version": "1.0.0",
+  "description": "Food Dash - Online food ordering and fast delivery website",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve . -p 3000",
+    "start": "serve . -p 3000",
+    "build": "echo \"Static website - ready for deployment\"",
+    "serve:firebase": "firebase serve --only hosting",
+    "emulate": "firebase emulators:start --only hosting",
+    "deploy": "firebase deploy --only hosting",
+    "deploy:all": "firebase deploy",
+    "preview": "firebase hosting:channel:deploy preview"
+  },
+  "keywords": [
+    "food-dash",
+    "firebase-hosting",
+    "restaurant",
+    "food-delivery"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^13.0.0",
+    "serve": "^14.2.4"
+  }
+}
